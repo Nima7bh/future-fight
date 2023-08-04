@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Comfortaa:wght@500&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Shop.css" />
+    <link rel="icon" href="img/png.png" />
+
+    <title>MFF | Shop</title>
+  </head>
+  <body>
+    <!-- ****** NAVBAR ****** -->
+
+    <nav class="navbar navbar-expand-md navbar-black bg-light">
+      <div class="container-fluid py-md-0 py-2 txt mainbg">
+        <a class="navbar-brand mouser" href="/Future Fight Project/img/png.png">
+          <img src="img/png.png" width="100" alt="Logo" class="top-logo px-2" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link nav--a ps-2"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav--a ps-2" href="News.html">News</a>
+            </li>
+            <li class="nav-item">
+              <div class="d-sm-inline-block d-none active--page">
+                <a class="nav-link nav--a ps-2" href="Shop.html">Shop</a>
+              </div>
+              <div class="d-sm-none d-block">
+                <a class="nav-link nav--a ps-2" href="Shop.html">Shop</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle nav--a"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Community
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img
+                      src="img/icons8-facebook.svg"
+                      alt=""
+                      width="40px"
+                      class="mb-2"
+                    />
+                    <span>Join Facebook</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img
+                      src="img/icons8-instagram.svg"
+                      alt=""
+                      width="40px"
+                      class="mb-sm-1 mb-2"
+                    />
+                    <span>Join Instagram</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img
+                      src="img/icons8-telegram.svg"
+                      alt=""
+                      width="40px"
+                      class="mb-sm-1 mb-2"
+                    />
+                    <span>Join Telegram</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img
+                      src="img/icons8-youtube-48.png"
+                      alt=""
+                      width="40px"
+                      class="mb-sm-1 mb-2"
+                    />
+                    <span>Join YouTube</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn search--icon" type="submit">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ****** Shop section ****** -->
+    <div style="background-color: #0b1548e7">
+      <h3 class="text-light d-sm-inline-block d-none ps-5 pt-5">
+        <span style="color: greenyellow; font-weight: bold; letter-spacing: 2px"
+          >Best </span
+        >Sellers | Popular
+      </h3>
+      <h3 class="text-light d-sm-none d-block text-center pt-4">
+        <span style="color: greenyellow; font-weight: bold; letter-spacing: 2px"
+          >Best
+        </span>
+        Sellers | Popular
+      </h3>
+      <!-- Big screen1  -->
+      <div
+        id="carouselExample"
+        class="carousel slide carousel-dark d-none d-sm-block"
+      >
+        <div class="carousel-inner">
+          <!-- page 1 -->
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+              <!-- Card 1 -->
+              <div class="card rounded-1">
+                <div class="image-wrapper mt-3">
+                  <img src="img/pack1.jpg" alt="..." class="rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    Tony Stark Stash MK2
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >3.99$ Purchase</a
+                  >
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="card rounded-1">
+                <div class="image-wrapper mt-3">
+                  <img src="img/pack2.jpg " alt="..." class="rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    Specail Daily Growth Support
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >29.99$ Purchase</a
+                  >
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper mt-3">
+                  <img src="img/pack7.jpg " alt="..." class="rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    7 Day Journey Towards Tire-3
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >19.99$ Purchase</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Page 2 -->
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <!-- Card 1 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper p-2 pt-4">
+                  <img src="img/pack5.jpg" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    Specil Tire 4 Super Upgrade Pack
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >79.99$ Purchase</a
+                  >
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper p-2 pt-4">
+                  <img src="img/pack3.jpg" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    Mega Uniform Upgrade Ticket Pack
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >39.99$ Purchase</a
+                  >
+                </div>
+              </div>
+              <!-- Card 3 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper p-2 pt-4">
+                  <img src="img/pack6.jpg" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    Stage 6 Replay Pack #1
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >4.99$ Purchase</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h3 class="text-light d-none d-sm-block ps-5 pt-4">
+        Recommended for YOU | Instant
+        <span style="color: greenyellow; letter-spacing: 2px">UPGRADE</span>
+      </h3>
+      <!-- Big screen2  -->
+      <div
+        id="carouselExample1"
+        class="carousel slide carousel-dark d-none d-sm-block"
+      >
+        <div class="carousel-inner">
+          <!-- Page 1 -->
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+              <!-- Card 1 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper">
+                  <img src="img/pack11.jpg" alt="..." class="pt-3 rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">
+                    Tire 3 Titan's Record Booster
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >19.99$ Purchase</a
+                  >
+                </div>
+              </div>
+              <!-- Card 2 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper">
+                  <img src="img/pack12.jpg" alt="..." class="pt-3 rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">
+                    Potential Transcendence Pack
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >39.99$ Purchase</a
+                  >
+                </div>
+              </div>
+              <!-- Card 3 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper">
+                  <img src="img/pack13 .jpg" alt="..." class="pt-3 rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">
+                    Tony Stark Stash MK2
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >3.99$ Purchase</a
+                  >
+                </div>
+              </div>
+              <!-- Card 4 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper">
+                  <img src="img/pack14.jpg" alt="..." class="pt-3 rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">
+                    Daily Boost Points
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >9.99$ Purchase</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Page 2 -->
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <!-- Card 1 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper">
+                  <img src="img/pack15.jpg" alt="..." class="pt-3 rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">
+                    S.H.I.L.E.D Special Support
+                  </h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >9.99$ Purchase</a
+                  >
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper">
+                  <img src="img/pack18.jpg" alt="..." class="pt-3 rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">550 Crystals</h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >4.99$ Purchase</a
+                  >
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper">
+                  <img src="img/pack17.jpg" alt="..." class="pt-3 rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">1100 Crystals</h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >9.99$ Purchase</a
+                  >
+                </div>
+              </div>
+              <!-- Card 4 -->
+
+              <div class="card rounded-1">
+                <div class="image-wrapper">
+                  <img src="img/pack16.jpg" alt="..." class="pt-3 rounded-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">3300 Crystals</h5>
+                  <p class="card-text"></p>
+                  <a
+                    href="Shop-confirem.html"
+                    class="btn btn-primary"
+                    style="display: flex; justify-content: center"
+                    >29.99$ Purchase</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- small screen1  -->
+
+      <div
+        id="carouselExampleControlSmallScreen"
+        class="carousel carousel-dark slide d-sm-none"
+      >
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="carousel-item active">
+            <div class="card rounded-1">
+              <div class="image-wrapper">
+                <img src="img/pack1.jpg" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">
+                  Tony Stark Stash MK2
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary fw-bold"
+                  style="display: flex; justify-content: center"
+                  >3.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper">
+                <img src="img/pack2.jpg" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">
+                  Specail Daily Growth Support
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >29.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper">
+                <img src="img/pack7.jpg" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">
+                  7 Day Journey Towards Tire-3
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >19.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper">
+                <img src="img/pack3.jpg" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">
+                  Mega Uniform Upgrade Ticket Pack
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >39.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper">
+                <img src="img/pack5.jpg" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">
+                  Special Tire 4 Super Upgrade Pack
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >79.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper">
+                <img src="img/pack4.jpg" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">
+                  Tire 2 Advancement Pack
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >29.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControlSmallScreen"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControlSmallScreen"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- My heading -->
+      <div>
+        <p class="text-light d-block d-sm-none text-center mt-4">
+          Recommended for YOU
+        </p>
+        <p class="text-light d-block d-sm-none text-center">
+          Instant
+          <span
+            style="color: greenyellow; font-weight: bold; letter-spacing: 1px"
+            >UPGRADE</span
+          >
+        </p>
+      </div>
+
+      <!-- small screen2  -->
+      <div
+        id="carouselExampleControlSmallScreen2"
+        class="carousel carousel-dark slide pb-5 d-sm-none"
+      >
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="carousel-item active">
+            <div class="card rounded-1">
+              <div class="image-wrapper p-4">
+                <img src="img/pack11.jpg" alt="..." class="rounded-2" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">
+                  Tire 3 Titan's Record Booster
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >19.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper p-4">
+                <img src="img/pack12.jpg" alt="..." class="rounded-2" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">
+                  Potential Transcendence Pack
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >39.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper p-4">
+                <img src="img/pack13 .jpg" alt="..." class="rounded-2" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">
+                  Tony Stark Stash MK2
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >3.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper p-4">
+                <img src="img/pack14.jpg" alt="..." class="rounded-2" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">
+                  Daily Boost Points
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >9.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper p-4">
+                <img src="img/pack15.jpg" alt="..." class="rounded-2" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">
+                  S.H.I.L.E.D Special Support
+                </h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >9.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper p-4">
+                <img src="img/pack18.jpg" alt="..." class="rounded-2" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">550 Crystals</h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >4.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 7 -->
+
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper p-4">
+                <img src="img/pack17.jpg" alt="..." class="rounded-2" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">1100 Crystals</h5>
+                <p class="card-text"></p>
+                <a
+                  href="Shop-confirem.html"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >9.99$ Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Card 8 -->
+          class="rounded-2"
+          <div class="carousel-item">
+            <div class="card rounded-1">
+              <div class="image-wrapper p-4">
+                <img src="img/pack16.jpg" alt="..." class="rounded-2" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">3300 Crystals</h5>
+                <p class="card-text"></p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="display: flex; justify-content: center"
+                  >29.99 Crystals</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControlSmallScreen2"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControlSmallScreen2"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Bootstrap Script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Icon Script   -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

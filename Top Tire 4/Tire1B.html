@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Comfortaa:wght@500&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" href="TopTireIMG/png.png" />
+
+    <title>Marvel Future Fight</title>
+
+    <style>
+      body {
+        font-family: "Comfortaa", cursive;
+        font-size: 18px;
+      }
+      .back-pic {
+        background-color: #0b1548e7;
+      }
+      .top-section {
+        background-color: #f5f5f5;
+        border-radius: 8px;
+      }
+      .search--icon {
+        background: linear-gradient(
+          to right,
+          rgb(203, 29, 93),
+          rgb(154, 40, 82)
+        );
+        color: white;
+        border: 1px solid #c40477df;
+      }
+      .mainbg {
+        background: linear-gradient(to right, #ec0000df, #00188fdf);
+      }
+      .state-box {
+        background-color: #2e3394;
+      }
+      .secondbg {
+        background: #d21623;
+        color: #fff;
+      }
+      .top-logo {
+        background-color: rgba(214, 214, 214, 0.642);
+        border-radius: 12px;
+        border: 1px solid #fff;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
+      }
+      .nav--a:link,
+      .nav--a:visited {
+        color: white;
+      }
+      .nav--a:hover,
+      .nav--a:active {
+        color: rgb(0, 0, 0);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.21);
+        border-radius: 7%;
+        font-weight: bold;
+      }
+      .point {
+        cursor: pointer;
+      }
+      .mouser {
+        cursor: default;
+      }
+      .modal-rota {
+        text-decoration: none;
+        color: black;
+      }
+      .ctp-value {
+        background-color: #0b154872;
+        font-weight: 700;
+        font-size: 30px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back-pic pb-sm-4">
+      <!-- ***$$$*** NAVBAR ***$$$*** -->
+      <nav class="navbar navbar-expand-md navbar-black bg-light">
+        <div class="container-fluid py-md-0 py-1 txt mainbg">
+          <a class="navbar-brand mouser" href="TopTireIMG/png.png">
+            <img
+              src="TopTireIMG/png.png"
+              width="100"
+              alt="Logo"
+              class="top-logo px-2"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link nav--a ps-2"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav--a ps-2" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav--a ps-2" href="../Shop.html">Shop</a>
+              </li>
+              <li class="nav-item dropdown ps-sm-0 ps-2">
+                <a
+                  class="nav-link dropdown-toggle nav--a"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Community
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img
+                        src="TopTireIMG/icons8-facebook.svg"
+                        alt=""
+                        width="40px"
+                        class="mb-2"
+                      />
+                      <span>Join Facebook</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img
+                        src="TopTireIMG/icons8-instagram.svg"
+                        alt=""
+                        width="40px"
+                        class="mb-sm-1 mb-2"
+                      />
+                      <span>Join Instagram</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img
+                        src="TopTireIMG/icons8-telegram.svg"
+                        alt=""
+                        width="40px"
+                        class="mb-sm-1 mb-2"
+                      />
+                      <span>Join Telegram</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img
+                        src="TopTireIMG/icons8-youtube-48.png"
+                        alt=""
+                        width="40px"
+                        class="mb-sm-1 mb-2"
+                      />
+                      <span>Join YouTube</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn search--icon" type="submit">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ***###*** Main Section ***###*** -->
+      <div
+        class="container mt-sm-5 mt-0"
+        style="border: 1px solid #fff; border-radius: 10px"
+      >
+        <div class="row bg-light rounded-2 p-2 pt-4">
+          <!-- **** img & name section  -->
+          <div class="col-12 p-5">
+            <div class="d-none d-md-flex">
+              <div>
+                <img
+                  src="TopTireIMG/sharonrogers5.png"
+                  class="rounded-2"
+                  width="150"
+                  alt=""
+                />
+              </div>
+              <div
+                style="
+                  align-self: center;
+                  background-color: #098fdd;
+                  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.21);
+                  border: 1px solid;
+                "
+                class="ps-sm-0 ps-4 ms-sm-4 ms-3 p-sm-3 p-3 rounded-3"
+              >
+                <span
+                  class="h2 ps-sm-3 ps-0 mouser text-light"
+                  style="color: #223149"
+                  >Sharon Rogers
+                </span>
+
+                <img
+                  src="TopTireIMG/Blast.png"
+                  alt=""
+                  width="40"
+                  class="d-none d-sm-inline-block ms-3 pe-2 mb-1"
+                />
+              </div>
+            </div>
+            <div class="d-flex d-md-none row">
+              <div class="col-12 d-flex justify-content-center mb-3">
+                <img
+                  src="TopTireIMG/sharonrogers5.png"
+                  class="rounded-2"
+                  width="150"
+                  alt=""
+                  style="
+                    border: 2px solid;
+                    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.21);
+                  "
+                />
+              </div>
+              <div
+                style="
+                  background-color: #098fdd;
+                  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.21);
+                  border: 1px solid;
+                "
+                class="col-12 pt-3 rounded-3"
+              >
+                <span
+                  class="h2 ps-sm-3 ps-0 mouser text-light d-flex justify-content-center"
+                  style="color: #223149"
+                  >Sharon Rogers
+                  <img
+                    src="TopTireIMG/Blast.png"
+                    alt=""
+                    class="ms-2"
+                    width="35"
+                  />
+                </span>
+              </div>
+            </div>
+            <!-- **** state **** -->
+            <div
+              class="row justify-content-center align-items-center g-2 mt-2 mouser"
+            >
+              <!-- big screen -->
+              <div class="col-lg-4 col-6 d-md-inline-block d-none">
+                <div class="pt-3">
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Type :</span
+                  >
+                  <span class="ps-1" style="letter-spacing: 1px"> Blast</span>
+                </div>
+                <div class="pt-3">
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Allies :</span
+                  >
+                  <span class="ps-1"> Human</span>
+                </div>
+                <div class="pt-3">
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Gender :</span
+                  >
+                  <span class="ps-1"> Female</span>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6 d-md-inline-block d-none">
+                <div class="pt-3">
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Side :</span
+                  >
+                  <span class="ps-1" style="letter-spacing: 1px"> Hero </span>
+                </div>
+                <div class="pt-3">
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >instinct :</span
+                  >
+                  <span class="ps-1"> justice</span>
+                </div>
+                <div class="pt-3">
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Rotation :</span
+                  >
+                  <span class="ps-1" style="letter-spacing: 1px">
+                    <!-- ** Modal ** -->
+                    <a
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal1"
+                      class="modal-rota"
+                    >
+                      Click-ME
+                    </a>
+
+                    <div
+                      class="modal fade"
+                      id="exampleModal1"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3
+                              class="modal-title fs-5 mouser"
+                              id="exampleModalLabel"
+                            >
+                              Rotation
+                            </h3>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <span style="font-weight: bold" class="mouser"
+                                >Nomal ROT:</span
+                              >
+                              <span class="mouser">3dc 5c 4</span>
+                            </p>
+                            <p>
+                              <span style="font-weight: bold" class="mouser"
+                                >Tire ROT:</span
+                              >
+                              <span class="mouser">3dc 5c 4c 6</span>
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">
+                              Copy
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <!--  small screen -->
+
+              <div class="col-lg-4 col-6 d-md-none d-block">
+                <div
+                  class="pt-3 ms-4"
+                  style="display: flex; flex-direction: column"
+                >
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Type :</span
+                  >
+                  <span style="letter-spacing: 1px"> Blast</span>
+                </div>
+                <div
+                  class="pt-3 ms-4"
+                  style="display: flex; flex-direction: column"
+                >
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Allies :</span
+                  >
+                  <span> Human</span>
+                </div>
+                <div
+                  class="pt-3 ms-4"
+                  style="display: flex; flex-direction: column"
+                >
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Gender :</span
+                  >
+                  <span> Female</span>
+                </div>
+              </div>
+              <div class="col-lg-4 col-6 d-md-none d-inline-block">
+                <div
+                  class="pt-3 ms-4"
+                  style="display: flex; flex-direction: column"
+                >
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Side :</span
+                  >
+                  <span style="letter-spacing: 1px"> Hero </span>
+                </div>
+                <div
+                  class="pt-3 ms-4"
+                  style="display: flex; flex-direction: column"
+                >
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >instinct :</span
+                  >
+                  <span> justice</span>
+                </div>
+                <div
+                  class="pt-3 ms-4"
+                  style="display: flex; flex-direction: column"
+                >
+                  <span class="fw-bold" style="letter-spacing: 1px"
+                    >Rotation :</span
+                  >
+                  <span class="ps-1" style="letter-spacing: 1px">
+                    <!-- ** Modal ** -->
+                    <a
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      class="modal-rota"
+                    >
+                      Click-ME
+                    </a>
+
+                    <div
+                      class="modal fade"
+                      id="exampleModal"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3
+                              class="modal-title fs-5 mouser"
+                              id="exampleModalLabel"
+                            >
+                              Rotation
+                            </h3>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <span style="font-weight: bold" class="mouser"
+                                >Nomal ROT:</span
+                              >
+                              <span class="mouser">3dc 5c 4</span>
+                            </p>
+                            <p>
+                              <span style="font-weight: bold" class="mouser"
+                                >Tire ROT:</span
+                              >
+                              <span class="mouser">3dc 5c 4c 6</span>
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">
+                              Copy
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </div>
+              </div>
+
+              <!-- <div class="col-lg-2 col-0"></div> -->
+              <div class="col-12 mt-4 rounded-3 state-box">
+                <p
+                  class="p-3 mouser"
+                  style="
+                    color: #ede7e7;
+                    letter-spacing: 1px;
+                    text-align: justify;
+                  "
+                >
+                  In an alternate universe where Captain America was never
+                  frozen in ice at the end of World War II, Steve Rogers and
+                  Allied resistance fighter Agent Peggy Carter helped win the
+                  great conflict and celebrated V-Day with a private marriage
+                  ceremony. Shortly after their honeymoon, when Peggy was
+                  assigned to South Korea as part of a S.H.I.E.L.D.
+                  peace-keeping task force, the couple relocated and one year
+                  later welcomed the birth of their daughter Sharon. Decades
+                  later, when her father and mother retired from active service,
+                  Sharon took up her parents' quest for peace and justice.
+                  Highly trained in martial arts, and espionage, and equipped
+                  with a blaster lance and energy absorbing shield, Sharon
+                  battles evil and tyrants around the world as Captain America!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- PVP & PVE Section -->
+          <div class="col-12 rounded-3 py-3 secondbg">
+            <div class="row">
+              <!-- PVE -->
+              <div
+                class="col text-center"
+                style="display: flex; justify-content: center"
+              >
+                <ol style="list-style-type: none" class="me-2 mouser">
+                  <div
+                    class="mpe-5"
+                    style="
+                      display: flex;
+                      align-items: start;
+                      flex-direction: column;
+                    "
+                  >
+                    <li class="py-3 mb-2 ctp-value px-2 mouser">
+                      PVE Value : <img
+                      src="TopTireIMG/icons8-check-mark-button-48.png" width=40"
+                      alt="" class="" />
+                    </li>
+                    <li class="pb-3" style="font-size: 24px">Best CTP :</li>
+                    <li class="pb-1">1 . Energy</li>
+                    <li>2 . Destruction</li>
+                  </div>
+                </ol>
+              </div>
+              <div style="border-top: 1px solid" class="mt-2 d-sm-none"></div>
+
+              <!-- PVP -->
+              <div
+                class="col text-center mt-sm-0 mt-3"
+                style="display: flex; justify-content: center"
+              >
+                <ol style="list-style-type: none" class="me-2 mouser">
+                  <div
+                    class="mpe-5"
+                    style="
+                      display: flex;
+                      align-items: start;
+                      flex-direction: column;
+                    "
+                  >
+                    <li class="py-3 mb-2 ctp-value px-2 mouser">
+                      PVP Value : <img
+                      src="TopTireIMG/icons8-cross-mark-button-48.png" width=40"
+                      alt="" class="" />
+                    </li>
+                    <li class="pb-3" style="font-size: 24px">Best CTP :</li>
+                    <li class="pb-1">1 . -</li>
+                    <li>2 . -</li>
+                  </div>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <span class="pt-2"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ****** icon script ****** -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
